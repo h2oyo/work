@@ -1,0 +1,29 @@
+﻿Build started 3/29/2016 2:08:59 PM.
+     1>Project "C:\Users\stephen.estell\Documents\GitHub\AIViz\TestLines\TestLines.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\stephen.estell\Documents\GitHub\AIViz\dep\inc\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt graph.cpp
+         graph.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\TestLines.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\stephen.estell\Documents\GitHub\AIViz\dep\lib\Debug sfwl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\TestLines.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\TestLines.lib" /MACHINE:X86 Debug\graph.obj
+         Debug\Source.obj
+     1>sfwl.lib(gl_core_4_4.obj) : warning LNK4099: PDB 'sfwl.pdb' was not found with 'sfwl.lib(gl_core_4_4.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\sfwl.pdb'; linking object as if no debug info
+     1>sfwl.lib(crenderutils.obj) : warning LNK4099: PDB 'sfwl.pdb' was not found with 'sfwl.lib(crenderutils.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\sfwl.pdb'; linking object as if no debug info
+     1>sfwl.lib(sfwl.obj) : warning LNK4099: PDB 'sfwl.pdb' was not found with 'sfwl.lib(sfwl.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\sfwl.pdb'; linking object as if no debug info
+     1>sfwl.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(wgl_context.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(winmm_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(winmm_joystick.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(win32_window.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(win32_tls.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(win32_time.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(win32_monitor.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(win32_init.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(window.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(monitor.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(input.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(init.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+     1>sfwl.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'sfwl.lib(context.obj)' or at 'C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\glfw.pdb'; linking object as if no debug info
+         TestLines.vcxproj -> C:\Users\stephen.estell\Documents\GitHub\AIViz\Debug\TestLines.exe
+     1>Done Building Project "C:\Users\stephen.estell\Documents\GitHub\AIViz\TestLines\TestLines.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80
